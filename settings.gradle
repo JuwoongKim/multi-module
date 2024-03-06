@@ -1,4 +1,4 @@
 rootProject.name = 'module-system'
 include 'api'
 include 'core'
-
+include 'admin'
