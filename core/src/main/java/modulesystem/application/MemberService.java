@@ -1,5 +1,7 @@
 package modulesystem.application;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import lombok.RequiredArgsConstructor;
@@ -17,5 +19,9 @@ public class MemberService {
 
 	public Member get(Long id) {
 		return memberRepository.findById(id).orElseThrow(() -> new RuntimeException());
+	}
+
+	public List<Member> getAll(){
+		return memberRepository.findAll();
 	}
 }
