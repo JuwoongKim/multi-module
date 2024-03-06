@@ -1,11 +1,10 @@
-package com.juwoong.modulesystem.application;
+package modulesystem.application;
 
 import org.springframework.stereotype.Service;
 
-import com.juwoong.modulesystem.domain.Member;
-import com.juwoong.modulesystem.domain.repository.MemberRepository;
-
 import lombok.RequiredArgsConstructor;
+import modulesystem.domain.Member;
+import modulesystem.domain.repository.MemberRepository;
 
 @Service
 @RequiredArgsConstructor

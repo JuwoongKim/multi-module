@@ -1,4 +1,4 @@
-package com.juwoong.modulesystem.presentation.request;
+package modulesystem.presentation.request;
 
 public record Create(
 	String name,

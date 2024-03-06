@@ -1,4 +1,4 @@
-package com.juwoong.modulesystem.domain;
+package modulesystem.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

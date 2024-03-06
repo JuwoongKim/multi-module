@@ -1,19 +1,17 @@
-package com.juwoong.modulesystem.presentation;
+package modulesystem.presentation;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.juwoong.modulesystem.application.MemberService;
-import com.juwoong.modulesystem.domain.Member;
-import com.juwoong.modulesystem.presentation.request.Create;
-
 import lombok.RequiredArgsConstructor;
+import modulesystem.application.MemberService;
+import modulesystem.domain.Member;
+import modulesystem.presentation.request.Create;
 
 @RestController
 @RequiredArgsConstructor
